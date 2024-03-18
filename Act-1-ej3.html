@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Factorial</title>
+    <script>
+        function factorial(){
+            var numero = Number(prompt("Por favor, ingresa tu numero:"));
+            var factorial = 1
+            do{
+                factorial *=numero
+                numero--
+            }while(numero != 1)
+            document.write("El factorial es : " + factorial)
+        }
+    </script>
+</head>
+<body>
+    <script>
+        factorial()
+    </script>
+</body>
+</html>

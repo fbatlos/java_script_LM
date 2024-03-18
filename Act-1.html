@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saludo</title>
+    <script>
+        function saludar() {
+            var nombre = prompt("Por favor, ingresa tu nombre:");
+
+            if (nombre.trim() !== "") {
+                var saludo = "¡Hola, " + nombre + ".";
+                document.write("<h1>Saludo</h1>");
+                document.write("<p>" + saludo + "</p>");
+            } else {
+                alert("Por favor, ingresa tu nombre.");
+            }
+        }
+
+    </script>
+</head>
+<body>
+    <script>
+        saludar();
+    </script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>PumAct</title>
+    <script>
+        function Pum(){
+            for (var contador = 1; contador <= 50 ;contador++){
+                var numero=""
+                if(contador%7 == 0){
+                    document.write("PUM <br>")
+                    numero =""
+                    contador++ 
+                }
+                numero += contador.toString()+","
+                document.write(numero)
+            }
+        }
+    </script>
+</head>
+<body>
+    <script>
+        Pum()
+    </script>
+</body>
+</html>
